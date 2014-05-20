@@ -1,0 +1,42 @@
+#control{
+    padding: .5em 1em;
+}
+
+#control select{
+    font-size: 18px;
+    padding: .5em 1em;
+    width: 10em;
+    border: solid 1px #363636;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2) inset;
+}
+
+#control input[type=text]{
+    width: 20em;
+    display: inline-block;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .2) inset;
+}
+
+#countdown{
+		font-size: 72px;
+		position: absolute;
+		top: 50%;
+		text-align: center;
+		width: 100%;
+}
+
+#countdown2{
+        font-size: 30px;
+        color: gold;
+        text-align: center;
+}
+
+#countdown3{
+        font-size: 70px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        color: red;
+}
+
+body {background-color: #FFFAFA} 
